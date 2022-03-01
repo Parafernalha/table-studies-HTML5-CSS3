@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+h1
+{
+    text-align: center;
+}
+
+table
+{
+    margin: auto;
+    width: 300px;
+    border-collapse: collapse; /*Padrão: separete | Padrão excel: collapse*/
+}
+td
+{
+    border: 1px solid black;
+    padding: 8px;
+}
