@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*
+{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.bandeira
+{
+    height: 32px;
+    width: 45px;
+}
+table
+{
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+th
+{
+    font-size: 18px;
+    border: 2px solid black;
+    padding: 10px;
+    font: small-caps;
+}
+tr
+{
+    margin: 400px;
+    
+}
+td
+{
+    padding: 10px;
+    border: 2px solid black;
+    
+}
+#titulo
+{
+    text-align: center;
+    padding: 5px;
+}
+#traducao-titulo
+{
+    text-align: center;
+    padding-bottom: 20px;
+}
