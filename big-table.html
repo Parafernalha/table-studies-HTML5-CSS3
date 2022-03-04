@@ -6,20 +6,38 @@
     <meta name="description" content="large table">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style-big-table.css">
-    <link rel="icon" href="#">
+    <link rel="icon" href="/favicon/1favicon-16x16.png">
     <title>large table</title>
 </head>
+
+<!--
+        ANATOMIA PARA TABELAS GRANDES
+
+        <caption> </caption>
+
+        <thead> </thead>
+                            tr, td, th
+        <tbody> </tbody>
+                            tr, td, th
+        <tfoot> </tfoot>
+                            tr, td, th
+
+-->
 
 
 <body>
     <h1 id="titulo">Unidades federativas do Brasil</h1>
     <h2 id="traducao-titulo">Federative Units of Brazil</h2>
+
     <table>
+
+        <caption>Unidades federativas do Brasil e população</caption>
+
         <thead>
-                <th>estado</th>
-                <th>bandeira</th>
-                <th>população</th>
-                <th>sede do governo</th>          
+                <th scope="col">estado</th>
+                <th scope="col">bandeira</th>
+                <th scope="col">população</th>
+                <th scope="col">sede do governo</th>          
         </thead>
         
         <tbody>
@@ -213,6 +231,11 @@
                 </tr>
             
         </tbody>
+
+        <tfoot>
+            <th scope="row">Total de habitantes</th>
+            <td><strong>212.600.000</strong></td>
+        </tfoot>
     </table>
     
 </body>

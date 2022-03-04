@@ -25,6 +25,7 @@ th
     border: 2px solid black;
     padding: 10px;
     font: small-caps;
+    background-color: #EEF8FF;
 }
 tr
 {
@@ -46,4 +47,8 @@ td
 {
     text-align: center;
     padding-bottom: 20px;
+}
+caption
+{
+    padding: 10px;
 }
